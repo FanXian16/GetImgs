@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		901E8B142D81E1E000E43BCD /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 901E8B132D81E1E000E43BCD /* SwiftSoup */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		901E8AF62D81DF8800E43BCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901E8B142D81E1E000E43BCD /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = GetImgs;
 			packageProductDependencies = (
+				901E8B132D81E1E000E43BCD /* SwiftSoup */,
 			);
 			productName = GetImgs;
 			productReference = 901E8AE42D81DF8600E43BCD /* GetImgs.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 901E8ADB2D81DF8600E43BCD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				901E8B122D81E1E000E43BCD /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 901E8AE52D81DF8600E43BCD /* Products */;
 			projectDirPath = "";
@@ -541,6 +550,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		901E8B122D81E1E000E43BCD /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		901E8B132D81E1E000E43BCD /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 901E8B122D81E1E000E43BCD /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 901E8ADC2D81DF8600E43BCD /* Project object */;
 }
