@@ -26,8 +26,8 @@ struct ContentView: View {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], spacing: 10) {
                     ForEach(imagePaths, id: \.self) { imagePath in
-                        if let uiImage = UIImage(contentsOfFile: imagePath.path) {
-                            Image(uiImage: uiImage)
+                        if let nsImage = NSImage(contentsOf: imagePath) {
+                            Image(nsImage: nsImage)
                                 .resizable()
                                 .scaledToFit()
                                 .frame(height: 100)
