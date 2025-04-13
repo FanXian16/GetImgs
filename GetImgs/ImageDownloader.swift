@@ -2,7 +2,7 @@
 //  ImageDownloader.swift
 //  GetImgs
 //
-//  Created by 范贤 on 2025/3/13.
+//  Created by xian on 2025/3/13.
 //
 //  该文件定义了 `ImageDownloader` 结构体，用于下载图片、检查图片是否符合要求，并转换图片格式为 HEIC。
 

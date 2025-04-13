@@ -2,7 +2,7 @@
 //  GetImgsUITestsLaunchTests.swift
 //  GetImgsUITests
 //
-//  Created by 范贤 on 2025/3/12.
+//  Created by xian on 2025/3/12.
 //
 
 import XCTest

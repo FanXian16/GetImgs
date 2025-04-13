@@ -2,7 +2,7 @@
 //  WebScraper.swift
 //  GetImgs
 //
-//  Created by 范贤 on 2025/3/13.
+//  Created by xian on 2025/3/13.
 //
 //  该文件提供网页解析功能，从指定 URL 抓取所有图片链接。
 

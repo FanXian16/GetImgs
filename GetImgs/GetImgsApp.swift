@@ -2,7 +2,7 @@
 //  GetImgsApp.swift
 //  GetImgs
 //
-//  Created by 范贤 on 2025/3/12.
+//  Created by xian on 2025/3/12.
 //
 //  该文件是 SwiftUI 应用的入口，定义了 `GetImgsApp` 结构体，
 //  并在 `WindowGroup` 中加载 `ContentView` 作为主界面。

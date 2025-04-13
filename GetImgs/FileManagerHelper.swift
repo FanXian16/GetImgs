@@ -2,7 +2,7 @@
 //  FileManagerHelper.swift
 //  GetImgs
 //
-//  Created by 范贤 on 2025/3/13.
+//  Created by xian on 2025/3/13.
 //
 //  该文件提供文件管理相关功能，包括创建下载文件夹、转换 URL 为 HTTPS、获取网页标题，以及获取已下载的图片。
 
